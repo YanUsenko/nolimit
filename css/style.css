@@ -715,6 +715,7 @@ body {
 
 .map__content {
   padding-bottom: 120px;
+  padding-top: 0px;
 }
 
 @media (max-width: 1023px) {
@@ -737,7 +738,7 @@ body {
 
 @media (max-width: 1023px) {
   .map__title {
-    margin-top: 40px;
+    margin-top: 0px;
   }
 }
 
