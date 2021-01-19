@@ -470,6 +470,7 @@ body {
 
 .about__text {
   margin-top: 15px;
+  max-width: 240px;
 }
 
 .price__content {
@@ -733,6 +734,7 @@ body {
 @media (max-width: 1023px) {
   .map__row {
     flex-direction: column-reverse;
+    padding-top: 0;
   }
 }
 
@@ -762,8 +764,14 @@ body {
 }
 
 .map__block-2 {
-  height: auto;
   padding-bottom: 40px;
+}
+
+@media (max-width: 1023px) {
+  .map__block-2 {
+    height: auto;
+    padding-bottom: 30;
+  }
 }
 
 .map__adress {
@@ -775,7 +783,7 @@ body {
   align-items: center;
   flex-direction: column;
   font-weight: bold;
-  margin-top: 25%;
+  margin-top: 130px;
   line-height: 25px;
 }
 
